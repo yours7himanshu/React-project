@@ -19,7 +19,7 @@ const recentItem = (topic)=>(
         <img src="https://t3.ftcdn.net/jpg/05/28/86/66/360_F_528866602_aiVwnOnkooTrqo3MgicCf83SVVzt1Gnd.jpg" alt="background-image" />
         <Avatar className="sidebar-avatar"></Avatar>
         <h2>Himanshu Dinkar</h2>
-        <h4>dinkarhimanshu78@gmail.com</h4>
+        <p>First Year Student | Exploring Open Source | Tech Enthusiast | Currently Learning Java☕</p>
       </div>
       <div className="sidebar-stats">
         {/* Sidebar stat 1 */}
@@ -27,7 +27,7 @@ const recentItem = (topic)=>(
           <p>Who viewed you</p>
           <p className="sidebar-statnum">2,546</p>
         </div>
-
+    
 
 {/* Sidebar stat 2 */}
         <div className="sidebar-stat">
