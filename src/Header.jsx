@@ -27,11 +27,11 @@ function Header() {
 
 <div className="right">
 <HeaderOption Icon={HomeIcon} title='Home'></HeaderOption>
-<HeaderOption Icon={SupervisorAccountIcon} title='My Network'></HeaderOption>
+<HeaderOption Icon={SupervisorAccountIcon} title='Network'></HeaderOption>
 <HeaderOption Icon={BusinessCenterIcon} title='Jobs'></HeaderOption>
 <HeaderOption Icon={ChatIcon} title='Messaging'></HeaderOption>
 <HeaderOption Icon={NotificationsIcon} title='Notification'></HeaderOption>
-<HeaderOption avatar= "https://png.pngtree.com/png-vector/20191101/ourmid/pngtree-cartoon-color-simple-male-avatar-png-image_1934459.jpg"title="me"></HeaderOption>
+<HeaderOption avatar= "https://png.pngtree.com/png-vector/20191101/ourmid/pngtree-cartoon-color-simple-male-avatar-png-image_1934459.jpg"></HeaderOption>
 </div>
 
 

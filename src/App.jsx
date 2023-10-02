@@ -3,15 +3,18 @@ import "./App.css";
 import Header from "./Header";
 import React from "react";
 import Sidebar from "./Sidebar";
+import MiddleSec from "./MiddleSec";
+import Right from "./Right";
 
 function App() {
   return (
-    <div>
+    <div className="app">
      <Header></Header>
 <div className="app-body">
-
-</div>
 <Sidebar></Sidebar>
+<MiddleSec></MiddleSec>
+<Right></Right>
+</div>
 
     </div>
   )
