@@ -28,3 +28,19 @@
     width: 100%;
     
 }
+
+.feed-input form input{
+    border: none;
+    flex: 1;
+    margin-left: 10px;
+    outline-width: 0;
+    font-weight: 600;
+}
+
+.feed-input form button{
+    display: none;
+}
+.feed-inputOptions{
+    display: flex;
+    justify-content: space-evenly;
+}

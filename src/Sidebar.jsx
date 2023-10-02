@@ -16,7 +16,7 @@ const recentItem = (topic)=>(
   return (
     <div className="sidebar">
       <div className="sidebar-top">
-        <img src="https://images.unsplash.com/photo-1508898578281-774ac4893c0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="background-image" />
+        <img src="https://t3.ftcdn.net/jpg/05/28/86/66/360_F_528866602_aiVwnOnkooTrqo3MgicCf83SVVzt1Gnd.jpg" alt="background-image" />
         <Avatar className="sidebar-avatar"></Avatar>
         <h2>Himanshu Dinkar</h2>
         <h4>dinkarhimanshu78@gmail.com</h4>
