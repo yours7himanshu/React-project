@@ -20,7 +20,7 @@ function MiddleSec() {
         <div className="feed-input">
           <CreateIcon />
           <form>
-            <input type="text" placeholder="Send a Post" />
+            <input type="text" placeholder="Start a Post" />
             <button onClick ={sendPost} type="submit">Send</button>
           </form>
         </div>
