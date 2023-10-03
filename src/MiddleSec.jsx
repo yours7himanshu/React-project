@@ -1,5 +1,5 @@
 import "./Middle.css";
-import React, { useState } from "react";
+import React from "react";
 import CreateIcon from "@mui/icons-material/Create";
 import InputOption from './InputOption';
 import ImageIcon from '@mui/icons-material/Image';
@@ -9,11 +9,7 @@ import CalendarViewDayIcon from '@mui/icons-material/CalendarViewDay';
 import Post from './Post';
 
 function MiddleSec() {
-  const [posts,setPosts]= useState([])
-  const sendPost = (e)=> {
-    e.preventDefault();
-    setPosts()
-  };
+  
   return (
     <div className="feed">
       <div className="feed-inputContainer">
@@ -21,7 +17,7 @@ function MiddleSec() {
           <CreateIcon />
           <form>
             <input type="text" placeholder="Start a Post" />
-            <button onClick ={sendPost} type="submit">Send</button>
+            <button  type="submit">Send</button>
           </form>
         </div>
         <div className="feed-inputOptions">
@@ -31,9 +27,7 @@ function MiddleSec() {
           <InputOption Icon={CalendarViewDayIcon} title='Write article' color="#7fc15e"></InputOption>
         </div>
       </div>
-     {posts.map((post)=>(
-      <Post/>
-     ))}
+     
 
       < Post name = 'Himanshu Dinkar'
       discription = 'This is a test'
